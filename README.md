@@ -4,7 +4,7 @@ Aviasales is application for searching airlines tickets.
 
 ## Demo
 
-demo
+[Demo](https://airlines-one.vercel.app)
 
 ## Preview
 
