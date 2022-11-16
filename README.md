@@ -8,8 +8,10 @@ demo
 
 ## Preview
 
+/avia
 ![avia](https://user-images.githubusercontent.com/105654011/202313718-5c13e945-ebfb-4806-ba83-1841b427e8ce.png)
 
+/avia/info
 ![avia:info](https://user-images.githubusercontent.com/105654011/202313623-e3b07978-01e7-4a79-ab9c-bbc5351559de.png)
 
 ## Intro
