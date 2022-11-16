@@ -1,0 +1,52 @@
+.item {
+  width: 107px;
+  height: 34px;
+  background: #FFFFFF;
+  border: 1px solid #B7BAC1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  position: relative;
+  margin-right: 20px;
+  padding: 6px 7px 7px 3px;
+  cursor: pointer;
+
+
+  .big {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #232323;
+  }
+
+  .small {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #232323;
+  }
+}
+
+.active {
+  @extend .item;
+  border: none;
+  width: 130px;
+  height: 40px;
+  background: #DDE3EE;
+  border-radius: 10px;
+  padding: 9px 15px 9px 18px;
+
+  .small {
+    position: absolute;
+    top: 12px;
+    right: 21px;
+  }
+}

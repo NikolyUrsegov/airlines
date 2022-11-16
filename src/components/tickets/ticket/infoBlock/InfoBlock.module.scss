@@ -1,0 +1,190 @@
+.block {
+  width: 790px;
+  height: 200px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+  .logoBlock {
+    width: 132px;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 25px;
+
+    .sticker {
+      width: 100%;
+      height: 26px;
+      background: #8BA5D8;
+      border-radius: 15px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+    }
+
+    .logo {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+
+      img {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .infoBlock {
+    min-width: 537px;
+
+    .info {
+      display: flex;
+      position: relative;
+
+      .flight {
+        width: 269px;
+        height: 109px;
+
+        .departure {
+          width: 110px;
+          height: 109px;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: start;
+
+          .time {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #232323;
+            margin-bottom: 8px;
+          }
+
+          .infoDeparture {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+
+            color: #5C5C5C;
+
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+
+      .arrival {
+        display: flex;
+        justify-content: end;
+      }
+
+      .diagramBlock {
+        width: 296px;
+        min-height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 30px;
+        left: 100px;
+
+        .airport {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 140%;
+          color: #B7BAC1;
+
+          span {
+            min-width: 27px;
+            height: 20px;
+          }
+
+        }
+
+        .diagram {
+          width: 93%;
+          border-bottom: 1px solid #B7BAC1;
+          margin-bottom: 8px;
+          position: relative;
+
+          &:before {
+            position: absolute;
+            top: -3px;
+            left: 0;
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #B7BAC1;
+            border-radius: 5px;
+          }
+
+          &:after {
+            position: absolute;
+            top: -3px;
+            right: 0;
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #B7BAC1;
+            border-radius: 5px;
+          }
+        }
+
+        .pathTime {
+          span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #B7BAC1;
+          }
+        }
+      }
+    }
+
+  }
+
+  .baggage {
+    margin: 0 20px;
+    width: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    .bagIcon {
+      width: 20px;
+      height: 37.25px;
+    }
+
+    .baggageIcon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

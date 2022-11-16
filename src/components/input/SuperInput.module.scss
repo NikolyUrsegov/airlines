@@ -1,0 +1,62 @@
+.formItem {
+  min-height: 50px;
+  position: relative;
+
+  span {
+    display: block;
+    min-width: 37px;
+    height: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+  }
+  .red{
+    color: red;
+  }
+
+  input {
+    width: 208px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 12px 12px 12px 12px;
+    position: relative;
+    margin-right: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  input::placeholder{
+    color: #E0E1E3;
+  }
+}
+.formItemDate {
+  @extend .formItem;
+  input {
+    padding: 12px 12px 12px 34px;
+  }
+  input[type=date]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 10px;
+    opacity: 0;
+  }
+
+  .default::-webkit-datetime-edit-fields-wrapper{
+    color: #E0E1E3;
+  }
+
+  img {
+    position: absolute;
+    top: 26px;
+    left: 12px;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,41 @@
+.block {
+  width: 980px;
+  min-height: 200px;
+  display: flex;
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+  border-radius: 15px;
+
+
+  .infoBlock {
+    display: flex;
+    flex-direction: column;
+
+    .item:first-child {
+      position: relative;
+      &:before{
+        position: absolute;
+        bottom: -1px;
+        right: 1px;
+        content: '';
+        width: 656px;
+        border-bottom: 1px dashed #5C87DB;
+      }
+    }
+  }
+
+  .price {
+    width: 190px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #DDE3EE;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #232323;
+  }
+}
