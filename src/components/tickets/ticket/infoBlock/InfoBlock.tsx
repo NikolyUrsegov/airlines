@@ -1,8 +1,8 @@
 import React from 'react';
 import s from "./InfoBlock.module.scss";
-import logo from "../../../../common/images/logo.svg";
-import bag from "../../../../common/images/bag.svg";
-import baggage from "../../../../common/images/baggage.svg";
+import logo from "../../../../assets/images/logo.svg";
+import bag from "../../../../assets/images/bag.svg";
+import baggage from "../../../../assets/images/baggage.svg";
 import {TicketType} from "../../../../store/ticketsReducer";
 import {ChangeTimeBlock} from "./changeTimeBlock/ChangeTimeBlock";
 

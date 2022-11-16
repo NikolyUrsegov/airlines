@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navigate, Route, Routes} from "react-router-dom";
-import {SuperForm} from "../components/form/SuperForm";
-import {Tickets} from "../components/tickets/Tickets";
+import {SuperForm} from "../../components/form/SuperForm";
+import {Tickets} from "../../components/tickets/Tickets";
 
 export const RoutesPages = () => {
     return (

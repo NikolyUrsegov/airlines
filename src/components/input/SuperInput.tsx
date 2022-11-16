@@ -1,7 +1,7 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes} from 'react';
 import s from './SuperInput.module.scss'
-import icon from "../../common/images/calendar.svg";
-import iconBlack from "../../common/images/calendarBlack.svg";
+import icon from "../../assets/images/calendar.svg";
+import iconBlack from "../../assets/images/calendarBlack.svg";
 
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
